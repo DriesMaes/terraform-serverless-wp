@@ -1,6 +1,5 @@
 provider "aws" {
-  region  = "eu-west-1"
-  profile = "terraform"
+  region = "eu-west-1"
 }
 
 resource "aws_vpc" "main" {
