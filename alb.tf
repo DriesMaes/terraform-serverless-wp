@@ -1,5 +1,5 @@
 resource "aws_alb" "wordpress-alb" {
-  name            = "wof-load-balancer"
+  name            = "wof-load-balancer-test"
   security_groups = [aws_security_group.ALB.id]
   subnets         = [aws_subnet.main_public_1.id, aws_subnet.PublicSubnet1.id]
 }
